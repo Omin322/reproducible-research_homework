@@ -1,8 +1,26 @@
-# Reproducible research: version control and R
+ Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+1,2,3.) https://github.com/Omin322/logistic_growth/tree/dev
 
-## Instructions
+4.) a.) The included code contains a function allowing for a simulation of a random walk. Two grids are produced, with each displaying a random movement pattern. The code specifes that 500 steps are taken in randomly selected directions, and this is done twice, producing two maps with coordinates on the axes. Each time this code runs, the random pattern changes. The paths are also coloured in a gradient, allowing the steps to be seen in order. 
+
+b.) A random seed is a way to create reproducible "randomness". Code intended to be random can run into issues with research reproducibility, as any two random outputs can be significantly different, meaning results from 2 individual studies could come to different conclusions, and work from a given study can be hard to reproduce. A random seed is a random output which is given a unique number or vector to identify how it was randomised. By doing so, the exact random output can be recreated, increasing the reproducibility of the research, and allowing further studies on the data.
+
+c.) See repository
+
+d.) To utiise a random seed, the set.seed command can be used, which will set the way in which randomness is generated. After including this in the function, with seed set to 1, the output is the same every time. In order to change the random output, the seed number can be changed.
+![Changes to include random seed](https://github.com/Omin322/reproducible-research_homework/blob/main/commit_changes.png)
+
+5.) a.)The table has 13 columns, with 33 rows.
+
+b.) The data can be transformed logarithmically.
+
+c.) To find the exponent and scaling factor, a linear regression can be performed using the variables genome length and log virion volume. The resulting model has the exponent of the intercept as the scaling factor and the slope as the allometric exponent. In this case, the exponent is 1.5152, and the scaling factor is 1181.807. The p-values for these are 6.44e-10 and 2.28e-10. These values match with those in the paper, and are statistically significant.
+
+d.) See repository, in folder for Q5
+
+e.) A dsDNA virus with DNA length of 300kb is estimaated to have a volume of 6697007 nm^3.
+
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
 
