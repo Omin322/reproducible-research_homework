@@ -1,7 +1,5 @@
  Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
-
 1,2,3.) https://github.com/Omin322/logistic_growth/tree/dev
 
 4.) a.) The included code contains a function allowing for a simulation of a random walk. Two grids are produced, with each displaying a random movement pattern. The code specifes that 500 steps are taken in randomly selected directions, and this is done twice, producing two maps with coordinates on the axes. Each time this code runs, the random pattern changes. The paths are also coloured in a gradient, allowing the steps to be seen in order. 
