@@ -19,7 +19,7 @@ c.) To find the exponent and scaling factor, a linear regression can be performe
 
 d.) See repository, in folder for Q5
 
-e.) A dsDNA virus with DNA length of 300kb is estimaated to have a volume of 6697007 nm^3.
+e.) A dsDNA virus with DNA length of 300kb is estimated to have a volume of 6697007 nm^3.
 
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
